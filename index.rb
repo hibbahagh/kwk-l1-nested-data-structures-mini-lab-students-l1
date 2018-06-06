@@ -11,11 +11,13 @@ order = ["rye", "tofu", "cheddar"]
 # otherwise it's false 
 
 def sandwich_request(ingredients, order) 
-  rye = 0
+  randomo = 0
   loop do
-    randomo = (order.length - 1)
-    puts order[rye]
-    rye = rye + 1 
+    if randomo == (order.length - 1)
+      break
+    else
+    puts order[randomo]
+    randomo = rye + 1 
   end
 end
 
