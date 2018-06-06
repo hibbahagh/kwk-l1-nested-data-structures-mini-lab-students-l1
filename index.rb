@@ -14,7 +14,7 @@ def sandwich_request(ingredients, order)
   rye = 0 
   until rye = (order.length - 1)
     puts order
-    rye = rye + 
+    rye = rye + 1 
   end
 end
 
