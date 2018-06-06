@@ -11,15 +11,11 @@ ingredients = [
 # otherwise it's false 
 
 def sandwich_request(ingredients, order) 
-  if ingredients
-    puts "true"
-else 
+def order 
+  rye = 0 
+  until rye = (order.length - 1)
+    puts order
 
-  puts "false"
-end 
-end
-loop do 
-  puts ""
 # example city_info hash
 # cities = {
 #   :new_york => { 
