@@ -18,7 +18,7 @@ def sandwich_request(ingredients, order)
   end
 end
 
-sandwich_request()
+sandwich_request(ingredients, order)
 # example city_info hash
 # cities = {
 #   :new_york => { 
