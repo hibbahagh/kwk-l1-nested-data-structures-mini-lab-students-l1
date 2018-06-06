@@ -18,7 +18,8 @@ else
   puts "false"
 end 
 end
-
+loop do 
+  puts ""
 # example city_info hash
 # cities = {
 #   :new_york => { 
