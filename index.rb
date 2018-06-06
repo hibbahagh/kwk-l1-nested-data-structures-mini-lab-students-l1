@@ -1,9 +1,9 @@
-# example ingredients array
-# ingredients = [
-#     ["rye", "sourdough", "baguette"],
-#     ["ham", "salami", "turkey"],
-#     ["swiss", "munster", "cheddar"],
-#     ["mayo", "mustard", "tabasco"]
+example ingredients array
+ingredients = [
+    ["rye", "sourdough", "baguette"],
+    ["ham", "salami", "turkey"],
+    ["swiss", "munster", "cheddar"],
+    ["mayo", "mustard", "tabasco"]
 ]
 # if the order found within the ingredients then it's true
 # otherwise it's false 
