@@ -5,6 +5,8 @@ ingredients = [
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
+
+
 # if the order found within the ingredients then it's true
 # otherwise it's false 
 
@@ -15,7 +17,7 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 
-if ingredients == order 
+if ingredients
   puts "true"
 else 
 
