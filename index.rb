@@ -11,7 +11,8 @@ ingredients = [
 # otherwise it's false 
 
 def sandwich_request(ingredients, order) 
-  if ingredientsputs "true"
+  if ingredients
+    puts "true"
 else 
 
   puts "false"
