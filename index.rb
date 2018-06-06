@@ -19,6 +19,7 @@ def sandwich_request(ingredients, order)
     puts order[randomo]
     randomo = rye + 1 
   end
+  end
 end
 
 sandwich_request(ingredients, order)
