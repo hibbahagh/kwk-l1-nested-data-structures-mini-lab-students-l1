@@ -12,13 +12,21 @@ order = ["rye", "tofu", "cheddar"]
 
 def sandwich_request(ingredients, order) 
   randomo = 0
+  x = 0
+  y = 0
   loop do
-    if randomo == (order.length)
+    if randomo == order.length
       break
     else
     f = order[randomo]
+    loop do
+      if ingredients[x][y] == f
+        print f
+  
+    end
     randomo = randomo + 1 
     end
+      
   end
 end
 
