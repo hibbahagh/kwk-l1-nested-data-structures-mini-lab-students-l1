@@ -17,8 +17,8 @@ def sandwich_request(ingredients, order)
       break
     else
     puts order[randomo]
-    randomo = rye + 1 
-  end
+    randomo = randomo + 1 
+    end
   end
 end
 
