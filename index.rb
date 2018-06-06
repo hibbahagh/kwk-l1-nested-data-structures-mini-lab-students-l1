@@ -11,7 +11,7 @@ order = ["rye", "tofu", "cheddar"]
 # otherwise it's false 
 
 def sandwich_request(ingredients, order) 
-  rye = 0 
+  rye = 0
   until rye = (order.length - 1)
     puts order[rye]
     rye = rye + 1 
@@ -19,6 +19,7 @@ def sandwich_request(ingredients, order)
 end
 
 sandwich_request(ingredients, order)
+
 # example city_info hash
 # cities = {
 #   :new_york => { 
