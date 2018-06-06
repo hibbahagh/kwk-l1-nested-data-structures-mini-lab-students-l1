@@ -18,6 +18,7 @@ def sandwich_request(ingredients, order)
     ["mayo", "mustard", "tabasco"]
 
 if ingredients
+  
   puts "true"
 else 
 
