@@ -5,7 +5,7 @@ ingredients = [
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-
+order = ["rye", "tofu", "cheddar"]
 
 # if the order found within the ingredients then it's true
 # otherwise it's false 
