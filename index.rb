@@ -11,10 +11,12 @@ ingredients = [
 # otherwise it's false 
 
 def sandwich_request(ingredients, order) 
-def order 
   rye = 0 
   until rye = (order.length - 1)
     puts order
+    rye = rye + 
+  end
+end
 
 # example city_info hash
 # cities = {
