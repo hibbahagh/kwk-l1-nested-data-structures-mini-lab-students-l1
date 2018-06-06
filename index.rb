@@ -16,7 +16,7 @@ def sandwich_request(ingredients, order)
     if randomo == (order.length)
       break
     else
-    puts order[randomo]
+    f = order[randomo]
     randomo = randomo + 1 
     end
   end
